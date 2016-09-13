@@ -2,6 +2,6 @@
 
 	require_once '../routes.php';
 
-	sRoute::actionExecute($_SERVER['REQUEST_URI']);
+	Route::actionExecute($_SERVER['REQUEST_URI']);
 
 ?>
