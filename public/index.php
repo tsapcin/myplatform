@@ -1,8 +1,7 @@
 <?php
 
+	require_once '../routes.php';
 
-	require '../core/upload.php';
-
-	upload($_SERVER['REQUEST_URI']);
+	sRoute::actionExecute($_SERVER['REQUEST_URI']);
 
 ?>
